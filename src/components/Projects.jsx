@@ -1,7 +1,7 @@
 import React from 'react'
-import pomodoroImg from './assets/pomodoro.png'
-import lifePilotImg from './assets/lifepilot.png'
-import dinoImg from './assets/dino.png'
+import pomodoroImg from '../assets/pomodoro.png'
+import lifePilotImg from '../assets/lifepilot.png'
+import dinoImg from '../assets/dino.png'
 
 export default function Projects() {
   return (

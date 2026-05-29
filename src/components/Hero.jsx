@@ -1,5 +1,5 @@
 import React from "react";
-import arrowImg from './assets/arrow.png'
+import arrowImg from '../assets/arrow.png'
 export default function Hero() {
   return (
     <section id='top' className="relative h-screen w-full bg-[url('/src/assets/hero-bg.png')] bg-cover bg-bottom bg-no-repeat">

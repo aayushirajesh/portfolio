@@ -1,8 +1,8 @@
 import React from 'react'
-import linkedinIcon from './assets/linkedin.svg'
-import githubIcon from './assets/github.svg'
-import instagramIcon from './assets/instagram.svg'
-import figmaIcon from './assets/figma.svg'
+import linkedinIcon from '../assets/linkedin.svg'
+import githubIcon from '../assets/github.svg'
+import instagramIcon from '../assets/instagram.svg'
+import figmaIcon from '../assets/figma.svg'
 
 export default function Contact() {
   return (
