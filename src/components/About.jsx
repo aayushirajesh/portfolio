@@ -28,7 +28,7 @@ export default function About() {
         </div>
 
         <div className="flex flex-col gap-6">
-          <a href='/src/assets/resume.pdf' className="whitespace-nowrap w-40 px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
+          <a href='/portfolio/resume.pdf' className="whitespace-nowrap w-40 px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
             Resume ↗
           </a>
           <a href='https://github.com/aayushirajesh'className="whitespace-nowrap w-40 px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
