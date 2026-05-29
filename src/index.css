@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@theme {
+  --font-lato: "Lato", sans-mono;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-fancy: "Allura", cursive;
+  --font-playfair: "Playfair Display", serif;
+  --color-mainBg: #0A101A;
+  --color-cardBg: #0E1F45;
+  --color-primaryText: #F2F2F0;
+  --color-secondaryText: #0A101A;
+  --color-btnBg: #B6B5AE;
+  --color-borderSoft: rgba(255,255,255,0.08);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
