@@ -1,4 +1,8 @@
 import React from 'react'
+import linkedinIcon from './assets/linkedin.svg'
+import githubIcon from './assets/github.svg'
+import instagramIcon from './assets/instagram.svg'
+import figmaIcon from './assets/figma.svg'
 
 export default function Contact() {
   return (
@@ -35,16 +39,16 @@ export default function Contact() {
         <div className="grid grid-cols-4 gap-1">
           
           <a href="https://www.linkedin.com/in/aayushi-rajesh/" target="_blank" className="px-2 py-3 transition duration-300 hover:scale-110">
-            <img className="w-8 h-8 invert" src="/src/assets/linkedin.svg" alt="" />
+            <img className="w-8 h-8 invert" src={linkedinIcon} alt="linkedin" />
           </a>
           <a href="https://www.github.com/aayushirajesh/" target="_blank" className="px-2 py-3 transition duration-300 hover:scale-110">
-            <img className="w-8 h-8 invert" src="/src/assets/github.svg" alt="" />
+            <img className="w-8 h-8 invert" src={githubIcon} alt="github" />
           </a>
           <a href="https://instagram.com/aayushirh" target="_blank" className="px-2 py-3 transition duration-300 hover:scale-110">
-            <img className="w-8 h-8 invert" src="/src/assets/instagram.svg" alt="" />
+            <img className="w-8 h-8 invert" src={instagramIcon} alt="instagram" />
           </a>
           <a href="https://www.figma.com/@aayushirajesh" target="_blank" className="px-2 py-3 transition duration-300 hover:scale-110">
-            <img className="w-8 h-8 invert" src="/src/assets/figma.svg" alt="" />
+            <img className="w-8 h-8 invert" src={figmaIcon} alt="figma" />
           </a>
           
         </div>

@@ -1,4 +1,7 @@
 import React from 'react'
+import pomodoroImg from './assets/pomodoro.png'
+import lifePilotImg from './assets/lifepilot.png'
+import dinoImg from './assets/dino.png'
 
 export default function Projects() {
   return (
@@ -15,7 +18,7 @@ export default function Projects() {
         {/* Project 1 */}
         <div className='grid grid-cols-2 gap-14 pt-8 items-center text-lg w-full text-primaryText'>
           <div className='w-full h-105 overflow-hidden rounded-xl'>
-            <img src="/src/assets/pomodoro.png" alt="pomodoro-with-miu" className='w-full h-full object-contain' />
+            <img src={pomodoroImg} alt="pomodoro-with-miu" className='w-full h-full object-contain' />
           </div>
           <div>
             <h2 className="font-cormorant text-4xl font-medium tracking-wide text-primaryText mb-6">
@@ -45,7 +48,7 @@ export default function Projects() {
         {/* Project 2 */}
         <div className='grid grid-cols-2 gap-14 pt-8 items-center text-lg w-full text-primaryText'>
           <div className='w-full h-105 overflow-hidden rounded-xl'>
-            <img src="/src/assets/lifepilot.png" alt="LifePilot" className='w-full h-full object-contain'/>
+            <img src={lifePilotImg} alt="LifePilot" className='w-full h-full object-contain'/>
           </div>
           <div>
             <h2 className="font-cormorant text-4xl font-medium tracking-wide text-primaryText mb-6">
@@ -69,7 +72,7 @@ export default function Projects() {
         {/* Project 3 */}
         <div className='grid grid-cols-2 gap-14 pt-8 items-center text-lg w-full text-primaryText'>
           <div className='w-full h-105 overflow-hidden rounded-xl'>
-            <img src="/src/assets/dino.png" alt="Dino Runner — Cherry Blossom Edition" className='w-full h-full object-contain'/>
+            <img src={dinoImg} alt="Dino Runner — Cherry Blossom Edition" className='w-full h-full object-contain'/>
           </div>
           <div>
             <h2 className="font-cormorant text-4xl font-medium tracking-wide text-primaryText mb-6">

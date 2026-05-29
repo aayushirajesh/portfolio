@@ -1,5 +1,5 @@
 import React from "react";
-
+import arrowImg from './assets/arrow.png'
 export default function Hero() {
   return (
     <section id='top' className="relative h-screen w-full bg-[url('/src/assets/hero-bg.png')] bg-cover bg-bottom bg-no-repeat">
@@ -12,7 +12,7 @@ export default function Hero() {
           Web Developer & UI/UX Designer
         </p>
         <a href="#about" className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 cursor-pointer transition-transform duration-300 hover:scale-110 animate-bounce">
-          <img src="/src/assets/arrow.png" alt="Scroll Down" className="w-16 opacity-90" />
+          <img src={arrowImg} alt="Scroll Down" className="w-16 opacity-90" />
         </a>
       </div>
     </section>
