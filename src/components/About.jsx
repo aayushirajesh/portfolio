@@ -3,9 +3,9 @@ import Marquee from './Marquee'
 
 export default function About() {
   return (
-<   div id="about" className="w-full min-h-screen bg-mainBg flex flex-col items-center px-6 pt-22 pb-14 scroll-mt-15">
-      <div className="flex items-center gap-6 w-full max-w-5xl mb-8">
-        <h1 className="font-cormorant font-semibold text-5xl text-primaryText whitespace-nowrap">
+  <div id="about" className="w-full lg:min-h-screen bg-mainBg flex flex-col items-center px-6 sm:px-6 md:px-10 pt-22 pb-14 scroll-mt-16">
+      <div className="flex items-center gap-6 sm:gap-6 w-full max-w-5xl mb-8">
+        <h1 className="font-cormorant font-semibold text-3xl sm:text-4xl text-primaryText whitespace-nowrap">
           <span className="text-[#A8B7C9] mr-2">01.</span>
           About Me
         </h1>
@@ -13,12 +13,12 @@ export default function About() {
         <div className="h-px w-full bg-primaryText/20"></div>
 
       </div>
-      <div className="flex items-center justify-center w-full max-w-5xl gap-20">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center w-full max-w-5xl gap-8 lg:gap-20">
 
-        <div className="max-w-3xl text-left text-[1.15rem]">
-          <p className="font-cormorant text-primaryText text-xl leading-loose">
+        <div className="max-w-3xl text-left lg:text-left ">
+          <p className="font-cormorant text-primaryText text-lg sm:text-xl leading-loose sm:leading-loose">
             I'm Aayushi — a frontend developer and UI/UX designer who enjoys building clean, visually thoughtful interfaces.
-            <br />
+            <br /> 
             I'm especially interested in the space where design and code meet, and I care a lot about the small details that shape good interfaces — spacing, typography, interaction, and clarity.
             <br />
             Currently, I'm pursuing a B.Tech in Computer Science while building frontend and desktop applications using React and Electron.
@@ -27,17 +27,17 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-6">
-          <a href='/portfolio/resume.pdf' className="whitespace-nowrap w-40 px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
+        <div className="flex flex-row lg:flex-col gap-4 sm:gap-6">
+          <a href='/portfolio/resume.pdf' className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
             Resume ↗
           </a>
-          <a href='https://github.com/aayushirajesh'className="whitespace-nowrap w-40 px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
+          <a href='https://github.com/aayushirajesh'className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
             GitHub ↗
           </a>
         </div>
       </div>
 
-      <div className="w-full mt-20">
+      <div className="w-full mt-16 sm:mt-20">
         <Marquee />
       </div>
 
