@@ -2,6 +2,7 @@ import React from 'react'
 import pomodoroImg from '../assets/pomodoro.png'
 import lifePilotImg from '../assets/lifepilot.png'
 import dinoImg from '../assets/dino.png'
+import memorypalace from '../assets/memorypalace.png'
 
 export default function Projects() {
   return (
@@ -18,28 +19,28 @@ export default function Projects() {
         {/* Project 1 */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-8 items-center text-lg w-full text-primaryText'>
           <div className='w-full aspect-4/3 overflow-hidden rounded-xl'>
-            <img src={pomodoroImg} alt="pomodoro-with-miu" className='w-full h-full object-contain' />
+            <img src={memorypalace} alt="memory-palace" className='w-full h-full object-contain' />
           </div>
           <div>
             <h2 className="font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-primaryText mb-6">
-              Pomodoro With Miu
+              Memory Palace
             </h2>
             <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
-              Pomodoro with Miu is a small cozy desktop productivity app built using Electron, designed to make focus sessions feel more calm and enjoyable through a playful cat-themed interface.
+              A journaling website inspired by the idea that memories should feel discovered rather than stored.
               <br />
-              The app includes work and break timers with a simple, distraction-free UI focused on comfort and usability.
+              Instead of organizing entries into lists or timelines, it transforms personal memories into floating gates drifting through an animated memory wall.
               <br />
-              I'm planning to develop the project and add more features, interactions, and quality-of-life improvements over time.
+              The project explores how animation, atmosphere, and thoughtful user experience can create a more meaningful way to revisit personal memories.
             </p>
             <br />
             <div className="flex flex-wrap items-center gap-4">
-              <a href="https://github.com/aayushirajesh/pomodoro-with-miu" target="_blank"
+              <a href="https://github.com/aayushirajesh/memory-palace" target="_blank"
                 className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
                 Github ↗
               </a>
-              <a href="https://www.figma.com/community/file/1577001124513303240/pomodoro-with-miu-pomodoro-timer" target="_blank"
+              <a href="https://memorypalaceapp.vercel.app/" target="_blank"
                 className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
-                Figma ↗
+                Live Demo ↗
               </a>
             </div>
           </div>
@@ -70,6 +71,36 @@ export default function Projects() {
         </div>
 
         {/* Project 3 */}
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-8 items-center text-lg w-full text-primaryText'>
+          <div className='w-full aspect-4/3 overflow-hidden rounded-xl'>
+            <img src={pomodoroImg} alt="pomodoro-with-miu" className='w-full h-full object-contain' />
+          </div>
+          <div>
+            <h2 className="font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-primaryText mb-6">
+              Pomodoro With Miu
+            </h2>
+            <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
+              Pomodoro with Miu is a small cozy desktop productivity app built using Electron, designed to make focus sessions feel more calm and enjoyable through a playful cat-themed interface.
+              <br />
+              The app includes work and break timers with a simple, distraction-free UI focused on comfort and usability.
+              <br />
+              I'm planning to develop the project and add more features, interactions, and quality-of-life improvements over time.
+            </p>
+            <br />
+            <div className="flex flex-wrap items-center gap-4">
+              <a href="https://github.com/aayushirajesh/pomodoro-with-miu" target="_blank"
+                className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
+                Github ↗
+              </a>
+              <a href="https://www.figma.com/community/file/1577001124513303240/pomodoro-with-miu-pomodoro-timer" target="_blank"
+                className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
+                Figma ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 4 */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-8 items-center text-lg w-full text-primaryText'>
           <div className='w-full aspect-4/3 overflow-hidden rounded-xl'>
             <img src={dinoImg} alt="Dino Runner — Cherry Blossom Edition" className='w-full h-full object-contain'/>
