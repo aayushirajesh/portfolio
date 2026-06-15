@@ -28,7 +28,7 @@ export default function About() {
         </div>
 
         <div className="flex flex-row lg:flex-col gap-4 sm:gap-6">
-          <a href='/portfolio/resume.pdf' className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
+          <a href='/portfolio/resume-public.pdf' className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
             Resume ↗
           </a>
           <a href='https://github.com/aayushirajesh'className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
