@@ -18,7 +18,7 @@ export default function Contact() {
       </div>
 
       {/* content */}
-      <div className="w-full max-w-5xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-14 lg:gap-24">
+      <div className="w-full max-w-5xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-14 pb-15 lg:gap-24">
         {/* left */}
         <div className="max-w-lg text-center lg:text-left">
           <p className="font-cormorant text-xl sm:text-2xl leading-relaxed  text-primaryText">
