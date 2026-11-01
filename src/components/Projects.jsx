@@ -38,7 +38,7 @@ export default function Projects() {
                 className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
                 Github ↗
               </a>
-              <a href="https://www.figma.com/community/file/1577001124513303240/pomodoro-with-miu-pomodoro-timer" target="_blank"
+              <a href="https://www.figma.com/community/file/1698761901260318034/memory-palace" target="_blank"
                 className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
                 Figma ↗
               </a>
