@@ -25,13 +25,22 @@ export default function Projects() {
             <h2 className="font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-primaryText mb-6">
               Memory Palace
             </h2>
-            <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
-              A journaling website inspired by the idea that memories should feel discovered rather than stored.
-              <br />
-              Instead of organizing entries into lists or timelines, it transforms personal memories into floating gates drifting through an animated memory wall.
-              <br />
-              The project explores how animation, atmosphere, and thoughtful user experience can create a more meaningful way to revisit personal memories.
-            </p>
+            <div className="font-cormorant text-primaryText text-lg sm:text-xl font-medium leading-relaxed sm:leading-[1.75] text-pretty max-w-xl space-y-4">
+              <p>
+                A journaling website inspired by the idea that memories should feel
+                discovered rather than stored.
+              </p>
+              <p>
+                Instead of organizing entries into lists or timelines, it transforms
+                personal memories into floating gates drifting through an animated
+                memory wall.
+              </p>
+              <p>
+                The project explores how animation, atmosphere, and thoughtful user
+                experience can create a more meaningful way to revisit personal
+                memories.
+              </p>
+            </div>
             <br />
             <div className="flex flex-wrap items-center gap-4">
               <a href="https://github.com/aayushirajesh/memory-palace" target="_blank"
@@ -59,13 +68,17 @@ export default function Projects() {
             <h2 className="font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-primaryText mb-6">
               LifePilot
             </h2>
-            <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
-              An AI-powered productivity assistant that transforms goals into structured task plans and syncs them directly to Notion.
-              <br />
-              Built with a focus on simplicity and usability, the app generates realistic schedules with categories, priorities, and deadlines while still allowing users to review and edit tasks before saving.
-              <br />
-              The project explores the intersection of AI, automation, and thoughtful user experience to make planning feel more organized and less overwhelming.
-            </p>
+            <div className="font-cormorant text-primaryText text-lg sm:text-xl font-medium leading-relaxed sm:leading-[1.75] text-pretty max-w-xl space-y-4">
+              <p>
+                      An AI-powered productivity assistant that transforms goals into structured task plans and syncs them directly to Notion.
+              </p>
+              <p>
+                      Built with a focus on simplicity and usability, the app generates realistic schedules with categories, priorities, and deadlines while still allowing users to review and edit tasks before saving.
+              </p>
+              <p>
+                      The project explores the intersection of AI, automation, and thoughtful user experience to make planning feel more organized and less overwhelming.
+              </p>
+            </div>
             <br />
             <a href="https://github.com/aayushirajesh/LifePilot" target="_blank"
               className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
@@ -83,13 +96,17 @@ export default function Projects() {
             <h2 className="font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-primaryText mb-6">
               Pomodoro With Miu
             </h2>
-            <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
+            <div className="font-cormorant text-primaryText text-lg sm:text-xl font-medium leading-relaxed sm:leading-[1.75] text-pretty max-w-xl space-y-4">
+              <p>
               Pomodoro with Miu is a small cozy desktop productivity app built using Electron, designed to make focus sessions feel more calm and enjoyable through a playful cat-themed interface.
-              <br />
+              </p>
+              <p>
               The app includes work and break timers with a simple, distraction-free UI focused on comfort and usability.
-              <br />
+              </p>
+              <p>
               I'm planning to develop the project and add more features, interactions, and quality-of-life improvements over time.
-            </p>
+              </p>
+            </div>
             <br />
             <div className="flex flex-wrap items-center gap-4">
               <a href="https://github.com/aayushirajesh/pomodoro-with-miu" target="_blank"
@@ -113,10 +130,16 @@ export default function Projects() {
             <h2 className="font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-primaryText mb-6">
               Dino Runner — Cherry Blossom Edition
             </h2>
-            <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
+            <div className="font-cormorant text-primaryText text-lg sm:text-xl font-medium leading-relaxed sm:leading-[1.75] text-pretty max-w-xl space-y-4">
+              <p>
               A reimagined version of the classic Dino Runner game built with Python, featuring a soft cherry blossom inspired aesthetic, custom visuals, and a minimal pixel-art style interface.
-              <br />
+              </p>
+              <p>
               The project focuses on creating a playful and visually cohesive experience while experimenting with game interactions and themed UI elements.
+              </p>
+            </div>
+            <p className='font-cormorant text-pretty text-base sm:text-lg leading-relaxed'>
+              <br />
             </p>
             <br />
             <a href="https://github.com/aayushirajesh/dinoRunner-cherryBlossomEdition" target="_blank"

@@ -15,26 +15,29 @@ export default function About() {
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center w-full max-w-5xl gap-8 lg:gap-20">
 
-        <div className="max-w-3xl text-left lg:text-left ">
-          <p className="font-cormorant text-primaryText text-lg sm:text-xl leading-loose sm:leading-loose">
-            I'm Aayushi — a frontend developer and UI/UX designer who enjoys building clean, visually thoughtful interfaces.
-            <br /> 
-            I'm especially interested in the space where design and code meet, and I care a lot about the small details that shape good interfaces — spacing, typography, interaction, and clarity.
-            <br />
-            Currently, I'm pursuing a B.Tech in Computer Science while building frontend and desktop applications using React and Electron.
-            <br />
-            I enjoy learning by building, refining ideas through iteration, and turning rough concepts into polished experiences.
+        <div className="max-w-2xl text-left space-y-5 font-cormorant text-primaryText text-lg sm:text-[1.3rem] font-medium leading-relaxed sm:leading-[1.75] text-pretty">
+          <p>
+            I’m Aayushi, a web developer and UI/UX designer from India, and the kind of
+            person who notices when something is two pixels off.
+          </p>
+          <p>
+            I’m finishing a B.Tech in computer science, and I like the part of building
+            where design and code stop being separate jobs. I love the point where a
+            design stops being a picture and starts responding to you.
+          </p>
+          <p>
+            Outside of screens, I play violin and have a lasting soft spot for 
+            cats (especially the ones I spot along the way) and anything ocean-themed.
           </p>
         </div>
-
-        <div className="flex flex-row lg:flex-col gap-4 sm:gap-6">
-          <a href='/portfolio/resume-public.pdf' className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
-            Resume ↗
-          </a>
-          <a href='https://github.com/aayushirajesh'className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
-            GitHub ↗
-          </a>
-        </div>
+          <div className="flex flex-row lg:flex-col gap-4 sm:gap-6">
+            <a href='/portfolio/resume-public.pdf' className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
+              Resume ↗
+            </a>
+            <a href='https://github.com/aayushirajesh'className="text-center whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300">
+              GitHub ↗
+            </a>
+          </div>
       </div>
 
       <div className="w-full mt-16 sm:mt-20">

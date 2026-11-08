@@ -1,15 +1,21 @@
 const items = [
-  "Minimal Interfaces",
   "Thoughtful Details",
-  "Design Then Code",
-  "Soft Motion",
   "Built with React",
-  "Creative Systems",
+  "Soft Motion",
+  "Desktop Applications",
   "Minimal by Choice",
-  "Open Source Learning",
-  "Pixel-Level Obsession",
+  "Always Iterating",
   "Cats & Coffee",
+  "Interface Design",
+  "Creative Systems",
   "Slowly Refined",
+  "React & JavaScript",
+  "Pixel-Level Details",
+  "UI Experiments",
+  "Ocean & Cat Enthusiast",
+  "Design Meets Code",
+  "Open Source Contributions",
+  "Motion with Purpose",
 ];
 
 export default function Marquee() {
