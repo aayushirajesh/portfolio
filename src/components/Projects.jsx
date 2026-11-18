@@ -17,7 +17,7 @@ export default function Projects() {
       <div className='w-full max-w-6xl flex flex-col gap-15 sm:gap-20'>
 
         {/* Project 1 */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-8 items-center text-lg w-full text-primaryText'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-2 items-center text-lg w-full text-primaryText'>
           <div className='w-full aspect-4/3 overflow-hidden rounded-xl'>
             <img src={memorypalace} alt="memory-palace" className='w-full h-full object-contain' />
           </div>
@@ -43,6 +43,10 @@ export default function Projects() {
             </div>
             <br />
             <div className="flex flex-wrap items-center gap-4">
+              <a href="https://memorypalaceapp.vercel.app/" target="_blank"
+                className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
+                Live Demo ↗
+              </a>
               <a href="https://github.com/aayushirajesh/memory-palace" target="_blank"
                 className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
                 Github ↗
@@ -51,16 +55,12 @@ export default function Projects() {
                 className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
                 Figma ↗
               </a>
-              <a href="https://memorypalaceapp.vercel.app/" target="_blank"
-                className="px-6 sm:px-10 py-3 rounded-full border border-white/30 text-primaryText font-cormorant text-lg sm:text-xl hover:bg-primaryText hover:text-mainBg transition duration-300 text-center">
-                Live Demo ↗
-              </a>
             </div>
           </div>
         </div>
 
         {/* Project 2 */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-8 items-center text-lg w-full text-primaryText'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-2 items-center text-lg w-full text-primaryText'>
           <div className='w-full aspect-4/3 overflow-hidden rounded-xl'>
             <img src={lifePilotImg} alt="LifePilot" className='w-full h-full object-contain'/>
           </div>
@@ -122,7 +122,7 @@ export default function Projects() {
         </div>
 
         {/* Project 4 */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-8 items-center text-lg w-full text-primaryText'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 pt-1 sm:pt-10 items-center text-lg w-full text-primaryText'>
           <div className='w-full aspect-4/3 overflow-hidden rounded-xl'>
             <img src={dinoImg} alt="Dino Runner — Cherry Blossom Edition" className='w-full h-full object-contain'/>
           </div>
